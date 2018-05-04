@@ -28,11 +28,13 @@ app.use((req, res, next) => {
     next();
 });
 
+/*
 app.use((req, res, next) => {
     res.render('maintenance.hbs', {
         message: 'We are working...'
     });
 });
+*/
 
 app.use(express.static(__dirname + '/public'));
 
